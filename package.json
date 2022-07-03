@@ -1,0 +1,20 @@
+{
+  "name": "teste_tecnograv",
+  "version": "0.0.1",
+  "description": "Teste de conceito para tecnograv",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Josemilson Junior",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-firebird": "^1.0.0"
+  }
+}
